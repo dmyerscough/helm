@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  kube-state-metrics:
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2019-10-15T00:07:07.613212-07:00"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 09f2689136d6d4353674134a36d26f5d5df09b56e0e983cacccae557a29dc49b
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: jose@armesto.net
+      name: fiunchinho
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    urls:
+    - kube-state-metrics-2.4.2.tgz
+    version: 2.4.2
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 0.18.0
-    created: "2019-10-14T23:13:38.079279-07:00"
+    created: "2019-10-15T00:07:07.613716-07:00"
     description: A Helm chart for prometheus node-exporter
     digest: 7591d474700b23e3aa91e4ff8ea1aab7aca7725d65c0d96523dc62bee8318fb0
     home: https://github.com/prometheus/node_exporter/
@@ -23,7 +46,7 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.32.0
-    created: "2019-10-14T23:13:38.090478-07:00"
+    created: "2019-10-15T00:07:07.626357-07:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 44b143da69bcc8b6aefaca1ca60e07ead56abe213764716daaf3007545e47719
@@ -44,4 +67,4 @@ entries:
     urls:
     - prometheus-operator-6.18.1.tgz
     version: 6.18.1
-generated: "2019-10-14T23:13:38.078516-07:00"
+generated: "2019-10-15T00:07:07.612397-07:00"
