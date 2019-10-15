@@ -3,7 +3,7 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 0.18.0
-    created: "2019-10-14T23:01:11.771342-07:00"
+    created: "2019-10-14T23:13:38.079279-07:00"
     description: A Helm chart for prometheus node-exporter
     digest: 7591d474700b23e3aa91e4ff8ea1aab7aca7725d65c0d96523dc62bee8318fb0
     home: https://github.com/prometheus/node_exporter/
@@ -20,4 +20,28 @@ entries:
     urls:
     - prometheus-node-exporter-1.7.1.tgz
     version: 1.7.1
-generated: "2019-10-14T23:01:11.770583-07:00"
+  prometheus-operator:
+  - apiVersion: v1
+    appVersion: 0.32.0
+    created: "2019-10-14T23:13:38.090478-07:00"
+    description: Provides easy monitoring definitions for Kubernetes services, and
+      deployment and management of Prometheus instances.
+    digest: 44b143da69bcc8b6aefaca1ca60e07ead56abe213764716daaf3007545e47719
+    engine: gotpl
+    home: https://github.com/coreos/prometheus-operator
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - name: vsliouniaev
+    name: prometheus-operator
+    sources:
+    - https://github.com/coreos/prometheus-operator
+    - https://coreos.com/operators/prometheus
+    urls:
+    - prometheus-operator-6.18.1.tgz
+    version: 6.18.1
+generated: "2019-10-14T23:13:38.078516-07:00"
