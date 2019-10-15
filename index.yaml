@@ -3,7 +3,7 @@ entries:
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2019-10-15T00:08:30.116076-07:00"
+    created: "2019-10-15T11:04:59.408615-07:00"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 09f2689136d6d4353674134a36d26f5d5df09b56e0e983cacccae557a29dc49b
     home: https://github.com/kubernetes/kube-state-metrics/
@@ -26,7 +26,7 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 0.18.0
-    created: "2019-10-15T00:08:30.116583-07:00"
+    created: "2019-10-15T11:04:59.410428-07:00"
     description: A Helm chart for prometheus node-exporter
     digest: 7591d474700b23e3aa91e4ff8ea1aab7aca7725d65c0d96523dc62bee8318fb0
     home: https://github.com/prometheus/node_exporter/
@@ -46,10 +46,10 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.32.0
-    created: "2019-10-15T00:08:30.129962-07:00"
+    created: "2019-10-15T11:04:59.422767-07:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
-    digest: 1daf04726d42897ae64374a6f8f0ff853cc10f440a638680cbef10db1b21a3fc
+    digest: 066a50220efc58c41cc103c975053f552cca95777b637d7c8ac30b82607aa2c2
     engine: gotpl
     home: https://github.com/coreos/prometheus-operator
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -67,4 +67,4 @@ entries:
     urls:
     - prometheus-operator-6.18.1.tgz
     version: 6.18.1
-generated: "2019-10-15T00:08:30.11525-07:00"
+generated: "2019-10-15T11:04:59.406134-07:00"
